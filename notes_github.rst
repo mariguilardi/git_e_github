@@ -23,8 +23,8 @@ cd
 git status
 Este é o comando para saber a situação de versionamento de seu projeto
 
-Resumo de Comandos
-================== /n
-git clone -> clona repositório do Git-Hub para o Git /n
-cd -> move de diretório /n
-git status -> verificar situação do versionamento /n
+Resumo de Comandos \n
+==================
+git clone -> clona repositório do Git-Hub para o Git \n
+cd -> move de diretório \n
+git status -> verificar situação do versionamento \n
