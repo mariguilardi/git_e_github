@@ -14,12 +14,17 @@ Acessando o Git-Hub via web
 
 Clonando seu repositório Git-Hub localmente no Git
 ==================================================
-1) Após isso no terminal para Linux e Windows usar:
-git clone <link do repositório>
-Isso clona o repositório localmente na pasta encontrada no seu computador
-2) Entre na pasta criada do repositório com o comando:
-cd
-3) La utilize o comando
-git status
+1) Após isso no terminal para Linux e Windows usar: |
+git clone <link do repositório> |
+Isso clona o repositório localmente na pasta encontrada no seu computador |
+2) Entre na pasta criada do repositório com o comando:|
+cd |
+3) Lá utilize o comando |
+git status |
 Este é o comando para saber a situação de versionamento de seu projeto
-4)
+
+Resumo de Comandos
+==================
+git clone -> clona repositório do Git-Hub para o Git |
+cd -> move de diretório |
+git status -> verificar situação do versionamento |
