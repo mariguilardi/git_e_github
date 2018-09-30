@@ -19,7 +19,12 @@ git clone <link do repositório>
 Isso clona o repositório localmente na pasta encontrada no seu computador
 2) Entre na pasta criada do repositório com o comando:
 cd
-3) La utilize o comando
+3) Lá utilize o comando
 git status
 Este é o comando para saber a situação de versionamento de seu projeto
-4)
+
+Resumo de Comandos
+================== /n
+git clone -> clona repositório do Git-Hub para o Git /n
+cd -> move de diretório /n
+git status -> verificar situação do versionamento /n
