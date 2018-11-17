@@ -7,9 +7,10 @@ Acessando o Git localmente
 ==========================
 | Windows deve ser instalado anteriormente em https://git-scm.com/download/win , em Linux já é nativo)
 | **1)** Linux - acessar Git pelo Terminal digitando:
-| .. git
+.. codeblock:: bash git
 | **2)** Entrar na pasta onde mexerá nos repositórios utilizando:
-| .. cd <endereço_da_pasta>
+.. codeblock:: bash
+cd <endereço_da_pasta>
 
 Acessando o Git-Hub via web
 ===========================
