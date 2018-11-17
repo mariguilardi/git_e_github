@@ -1,4 +1,4 @@
-*************
-Git e Git-Hub
-*************
-|Anotações simples para iniciantes para usar versionamento de arquivos com Git e Git-Hub!
+**Git e Git-Hub**
+=================
+
+  Algumas anotações para iniciantes sobre como usar o versionamento de arquivos com Git e Git-Hub!
