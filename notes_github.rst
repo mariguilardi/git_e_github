@@ -1,18 +1,16 @@
 *************
 Git e Git-Hub
 *************
-| O git é um programa usado localmente em um computador para desenvolvimento e versionamento de códigos.
-| O github é uma plataforma de desenvolvimento para guardar os projetos versionados. Concorrentes: GitLab, BitBucket, entre outros.
-
+| O Git é um programa usado localmente em um computador para desenvolvimento e versionamento de códigos.
+| O Git-Hub é uma plataforma de desenvolvimento para guardar os projetos versionados. Concorrentes: GitLab, BitBucket, entre outros.
 Acessando o Git localmente
 ==========================
-| Em Windows, deve ser instalado anteriormente em https://git-scm.com/download/win , em Linux já é nativo)
+| Em Windows, deve ser instalado anteriormente em https://git-scm.com/download/win , em Linux já é nativo.
 | **1)** Linux - acessar Git pelo Terminal digitando:
 |  ``git``
 |
 | **2)** Entrar na pasta onde mexerá nos repositórios utilizando:
 | ``cd <endereço_da_pasta>``
-
 Acessando o Git-Hub via web
 ===========================
 | **1)** Acessar sua conta Git-Hub pelo navegador
@@ -25,8 +23,10 @@ Clonando seu repositório Git-Hub localmente no Git
 ==================================================
 | **1)** Para fazer as alterações no arquivos que deseja, primeiramente deve-se clonar localmente o repositório onde localizam-se esses arquivos, executando no terminal o comando:
 | ``git clone <link_do_repositório>``
+|
 | **2)** Entre no terminal na pasta criada do repositório com o comando:
 | ``cd <endereço da pasta>``
+|
 | **3)** Lá utilize o comando:
 | ``git status``
 | Este é o comando para saber a situação de versionamento de seu projeto
