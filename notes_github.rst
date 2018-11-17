@@ -9,7 +9,7 @@ Acessando o Git localmente
 | Em Windows, deve ser instalado anteriormente em https://git-scm.com/download/win , em Linux já é nativo.
 |
 | **1)** Acessar Git pelo terminal digitando:
-|  ``git``
+|  ```git```
 |
 | **2)** Entrar na pasta onde mexerá nos repositórios utilizando:
 | ``cd <endereço da pasta>``
