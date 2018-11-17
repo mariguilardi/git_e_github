@@ -7,7 +7,7 @@ Acessando o Git localmente
 ==========================
 | Windows deve ser instalado anteriormente em https://git-scm.com/download/win , em Linux já é nativo)
 | **1)** Linux - acessar Git pelo Terminal digitando:
- git
+::  git
 | **2)** Entrar na pasta onde mexerá nos repositórios utilizando:
 .. cd <endereço_da_pasta>
 
@@ -40,7 +40,7 @@ Formatando arquivos e versionando (commit) para o Git-Hub
 | git commit -a -> vai para um editor dentro do terminal que você pode adicionar comentários sobre o arquivo que está versionando
 | **ou**
 .. git commit -m <"mensagem que quero enviar"> -> faz o processo anterior em uma linha só
-| *Ctrl + L limpa a tela do terminal*
+| **Ctrl + L limpa a tela do terminal**
 | **5)** Dê git status e git log para verificar se seu versionamenro (commit) foi feito
 
 Atualizando o Git-Hub do projeto
@@ -60,7 +60,7 @@ Criando novos ramos (branch)
 | Até agora, tudo feito o ramo mestre (branch master). Agora qye um issue foi criado, faremos um branch para esse issue.
 | **1)** Digite *git branch* para ver os ramos no seu Git
 | **2.1)** Para criar um novo ramo use
-.. seealso:: git branch <nome_do_ramo>
+seealso:: git branch <nome_do_ramo>
 | **2.2)** Outro comando que pode ser usado é:
 | git checkout -b <nome_do_ramo>
 | Um comando para criar e entrar no branch
