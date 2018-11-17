@@ -28,11 +28,11 @@ Clonando seu repositório Git-Hub localmente no Git
 | ``git status``
 | Este é o comando para saber a situação de versionamento de seu projeto
 
-Formatando arquivos e versionando (commit) para o Git-Hub
+Formatando arquivos e versionando (*commit*) para o Git-Hub
 =========================================================
 | **1)** Os arquivos de anotações podem ser criados em formato .txt e .str
 | Os arquivos .str tem melhor visualização, já que existem alguns caracteres que podem ser colocados no arquivos para sua melhor visualização no Git-Hub
-| **2)** Dê um git status para verificar seu projeto
+| **2)** Dê um ``git status`` para verificar seu projeto
 | **3)** Agora para indicar que quer que seu arquivo seja versionado dê o comando:
 | ``git add <nome do arquivo>``
 | **4**) Para verificar o histórico de versionamento do arquivo utilize:
@@ -48,8 +48,8 @@ Atualizando o Git-Hub do projeto
 | **1)** Para enviar as alterações (*commits*) feitas localmente para o Git-Hub dê o comando:
 | ``git push <nome do diretório mestre (master)>``
 
-Criando issues e tickets
-=======================
+Criando *issues* e *tickets*
+============================
 | Ao produzir projetos em grupo, melhorias em projetos são sugeridas através da aba *Issues* dentro do Git-Hub
 | **1)** Acesse no Git-Hub ``<link do documento a ser comentado/issues>``
 | **2)** Fazer uma *Issue* do projeto. Uma *issue* tem que ser algo único, não uma lista. Os issues recebem números, dessa forma quando corrigir no código algo relacionado à um *issue* você pode atribuir o número da *issue*.
