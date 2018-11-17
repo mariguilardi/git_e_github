@@ -8,7 +8,7 @@ Acessando o Git localmente
 ==========================
 | Em Windows, deve ser instalado anteriormente em https://git-scm.com/download/win , em Linux já é nativo.
 |
-| **1)** Linux - acessar Git pelo Terminal digitando:
+| **1)** Acessar Git pelo terminal digitando:
 |  ``git``
 |
 | **2)** Entrar na pasta onde mexerá nos repositórios utilizando:
@@ -48,9 +48,11 @@ Formatando arquivos e versionando (*commit*) para o Git-Hub
 | ``git log``
 |
 | **5)** Para fazer o versionamento (*commit*) para o Git-Hub utilize:
-| ``git commit -a`` -> vai para um editor dentro do terminal que você pode adicionar comentários sobre o arquivo que está versionando
+| ``git commit -a``, que vai para um editor dentro do terminal que você pode adicionar comentários sobre o arquivo que está versionando
+|
 | **ou**
-| ``git commit -m "mensagem que quero enviar"`` -> faz o processo anterior em uma linha só
+|
+| ``git commit -m "mensagem que quero enviar"``, que faz o processo anterior em uma linha só
 |
 | **6)** Dê ``git status`` ou ``git log`` para verificar se seu versionamenro (commit) foi feito
 
