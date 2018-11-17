@@ -7,9 +7,9 @@ Acessando o Git localmente
 ==========================
 | Windows deve ser instalado anteriormente em https://git-scm.com/download/win , em Linux já é nativo)
 | **1)** Linux - acessar Git pelo Terminal digitando:
-::  git
+  `git`
 | **2)** Entrar na pasta onde mexerá nos repositórios utilizando:
-.. cd <endereço_da_pasta>
+| `cd <endereço_da_pasta>`
 
 Acessando o Git-Hub via web
 ===========================
@@ -23,9 +23,9 @@ Clonando seu repositório Git-Hub localmente no Git
 | .. git clone <link_do_repositório>
 | Isso clona o repositório localmente na pasta encontrada no seu computador
 | **2)** Entre na pasta criada do repositório com o comando:
- .. cd
+| .. cd
 | **3)** Lá utilize o comando
-.. git status
+| `git status`
 | Este é o comando para saber a situação de versionamento de seu projeto
 
 Formatando arquivos e versionando (commit) para o Git-Hub
@@ -34,8 +34,8 @@ Formatando arquivos e versionando (commit) para o Git-Hub
 | Os arquivos .str tem melhor visualização melhor, já existem alguns caracteres que podem ser colocados no arquivos para sua melhor visualização no Git
 | **2)** Dê um git status para verificar seu projeto
 | **3)** Agora para indicar que quer que seu arquivo seja versionado dê o comando:
-.. git add
-.. git log *Mostra o histórico de versionamento (commit)*
+`git add`
+`git log *Mostra o histórico de versionamento (commit)`
 | **4)** Para fazer o versionamento (commit) para o Git-Hub fazer:
 | git commit -a -> vai para um editor dentro do terminal que você pode adicionar comentários sobre o arquivo que está versionando
 | **ou**
