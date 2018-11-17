@@ -2,18 +2,15 @@
 Git e Git-Hub
 *************
 | O git é um programa usado localmente em um computador para desenvolvimento e versionamento de códigos.
-|
 | O github é uma plataforma de desenvolvimento para guardar os projetos versionados. Concorrentes: GitLab, BitBucket, entre outros.
 
 Acessando o Git localmente
 ==========================
 | Em Windows, deve ser instalado anteriormente em https://git-scm.com/download/win , em Linux já é nativo)
 | **1)** Linux - acessar Git pelo Terminal digitando:
-|
 |  ``git``
 |
 | **2)** Entrar na pasta onde mexerá nos repositórios utilizando:
-|
 | ``cd <endereço_da_pasta>``
 
 Acessando o Git-Hub via web
@@ -21,6 +18,7 @@ Acessando o Git-Hub via web
 | **1)** Acessar sua conta Git-Hub pelo navegador
 |
 | **2)** Ir no repositório que deseja fazer alterações
+|
 | **3)** Copiar link do repositório que deseja alterar
 
 Clonando seu repositório Git-Hub localmente no Git
