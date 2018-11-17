@@ -49,9 +49,7 @@ Formatando arquivos e versionando (*commit*) para o Git-Hub
 |
 | **5)** Para fazer o versionamento (*commit*) para o Git-Hub utilize:
 | ``git commit -a``, que vai para um editor dentro do terminal que você pode adicionar comentários sobre o arquivo que está versionando
-|
 | **ou**
-|
 | ``git commit -m "mensagem que quero enviar"``, que faz o processo anterior em uma linha só
 |
 | **6)** Dê ``git status`` ou ``git log`` para verificar se seu versionamenro (commit) foi feito
