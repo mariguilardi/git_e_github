@@ -7,6 +7,7 @@ Git e Git-Hub
 Acessando o Git localmente
 ==========================
 | Em Windows, deve ser instalado anteriormente em https://git-scm.com/download/win , em Linux já é nativo.
+|
 | **1)** Linux - acessar Git pelo Terminal digitando:
 |  ``git``
 |
@@ -65,8 +66,8 @@ Criando *issues* e *tickets*
 |
 | **2)** Fazer uma *Issue* do projeto. Uma *issue* tem que ser algo único, não uma lista. Os issues recebem números, dessa forma quando corrigir no código algo relacionado à um *issue* você pode atribuir o número da *issue*.
 
-Criando novos ramos (branch)
-=============================
+Criando novos ramos (*branch*)
+==============================
 | Até agora, tudo foi feito o ramo mestre (*branch master*). Agora com um *issue* criado, pode-se fazer uma *branch* para esse *issue*.
 | **1)** Digite ``git branch`` para ver quais os ramos existentes
 |
@@ -79,26 +80,26 @@ Criando novos ramos (branch)
 | **3.1)** Pode-se criar e mover para um novo ramo em um único comando usando:
 | ``git checkout -b <nome_do_ramo>``
 
-Unindo arquivos do issue com arquivo do ramo master
-===================================================
+Unindo arquivos do *issue* com arquivo do ramo mestre
+=====================================================
 | **1)** Selecione *Pull request*
 |
 | **2)** E selecione *Merge*
 
-Atualizando no terminal Git o merge feito no Git-Hub
+Atualizando no terminal Git o *merge* feito no Git-Hub
 ====================================================
-| **1)** Mude para ramo master com:
+| **1)** Mude para ramo mestre com:
 | ``git branch <nome_do_ramo>``
 |
-| **2)** Atualize o ramo master com:
+| **2)** Atualize o ramo mestre com:
 | ``git pull <link do diretório do trabalho>``
 
 Fazendo trabalhos colaborativos
 ===============================
 | **1)** Vá no repositório da pessoa que irá colaborar no Git-Hub
 |
-| **2)** Clique no topo do lado direito em:
+| **2)** Clique no topo do lado direito em: ``Fork``
 | Nota Importante: *Fork*
 | O *fork* é uma cópia de um projeto (o que está no master ou um *branch default*, por exemplo, v3.0) que você poderá editar localmente. Um exemplo: vamos supor que eu criei um projeto *open source* (código aberto) chamado ProjetoX. Então, se você se interessa em contribuir, então você faz o *fork* de meu projeto. Então, você terá uma cópia exata do que está no ProjetoX naquele momento em que fez o *fork*. Tudo o que você fizer deve ficar no seu *fork*. Quando achar que tem uma contribuição para o projeto, você faz um *pull request* para o meu projeto sinalizando sua contribuição, para que eu possa aceitá-la ou não. Outra possiblidade é você nunca fazer o *pull request*, simplesmente desenvolver o seu projeto a partir de um existente, criando um novo produto.
 |
-| **3)** A partir daí é só utilizar todos os comando utilizados anteriormente para alterações e realizar um pull request.
+| **3)** A partir daí é só utilizar todos os comando utilizados anteriormente para alterações e realizar um *pull request*.
