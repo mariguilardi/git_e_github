@@ -25,23 +25,23 @@ Acessando o Git-Hub via web
 
 Configuração do Git Localmente
 ==============================
-| Configura o nom que aparecerá no commit
-| ``git config --global user.name "<nome do usuário>"``
-
-| Configura o e-mail que aparecerá no commin
+| **1)** Configurando o usuário que fará o versionamento de arquivo
+| ``git config --global user.name "<nome do usuário no plataforma de versionamento>"``
+| 
+| **2)** Configurando o e-mail do usuário que fará o versionamento de arquivo
 | ``git config --global user.email "<e-mail do usuário>"``
-
-| Listando as configurações do usuário
+|
+| **3)** Por fim, você pode listar as configurações feitas para o usuário
 | ``git config --list``
 
 Criação de um projeto
 =====================
-| Criando um novo repositório local com um nome específico
+| **1)** Criando um novo repositório local com um nome específico para fazer versionamento de arquivos
 | ``git init <nome do projeto>``
 
 Clonando seu repositório Git-Hub localmente no Git
 ==================================================
-| **1)** Para fazer as alterações no arquivos que deseja, primeiramente deve-se clonar localmente o repositório onde localizam-se esses arquivos, executando no terminal o comando:
+| **1)** Alternativamente, você pode fazer alterações em arquivos que já existam em um repositório (como o GitHub). Para isso, primeiramente deve-se clonar localmente o repositório onde localizam-se esses arquivos, executando no terminal o comando:
 | ``git clone <link_do_repositório>``
 |
 | **2)** Entre no terminal na pasta criada do repositório com o comando:
