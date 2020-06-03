@@ -77,10 +77,10 @@ Formatando arquivos e versionando (*commit*) para o Git
 | ``git diff``
 | **ou**
 | Para verificar diferenãs entre ramos (*branch*)
-| git diff <branch1> <branch2>
+| ``git diff <branch1> <branch2>``
 |
 | **8)** E você pode ver as mudanças feitas nos metadados e no conteúdo para um dado *commit* usando
-| ``git show <número de identificação do commit>
+| ``git show <número de identificação do commit>``
 
 Desfazendo *commits*
 ====================
