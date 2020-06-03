@@ -14,15 +14,6 @@ Acessando o Git localmente
 | **2)** Entrar na pasta onde mexerá nos repositórios utilizando:
 | ``cd <endereço da pasta>``
 
-Acessando o Git-Hub via web
-===========================
-| **1)** Acessar sua conta Git-Hub pelo navegador
-|
-| **2)** Ir no repositório que deseja fazer alterações
-|
-| **3)** Copiar link do repositório que deseja alterar
-
-
 Configuração do Git Localmente
 ==============================
 | **1)** Configurando o usuário que fará o versionamento de arquivo
@@ -39,9 +30,17 @@ Criação de um projeto
 | **1)** Criando um novo repositório local com um nome específico para fazer versionamento de arquivos
 | ``git init <nome do projeto>``
 
+Acessando o Git-Hub via web
+===========================
+| **1)** Acessar sua conta Git-Hub pelo navegador
+|
+| **2)** Ir no repositório que deseja fazer alterações
+|
+| **3)** Copiar link do repositório que deseja alterar
+
 Clonando seu repositório Git-Hub localmente no Git
 ==================================================
-| **1)** Alternativamente, você pode fazer alterações em arquivos que já existam em um repositório (como o GitHub). Para isso, primeiramente deve-se clonar localmente o repositório onde localizam-se esses arquivos, executando no terminal o comando:
+| **1)** Você pode fazer também alterações em arquivos que já existam em um repositório online (como repositórios no GitHub). Para isso, primeiramente deve-se clonar localmente o repositório onde localizam-se esses arquivos, executando no terminal o comando:
 | ``git clone <link_do_repositório>``
 |
 | **2)** Entre no terminal na pasta criada do repositório com o comando:
