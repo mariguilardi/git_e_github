@@ -22,6 +22,23 @@ Acessando o Git-Hub via web
 |
 | **3)** Copiar link do repositório que deseja alterar
 
+
+Configuração do Git Localmente
+==============================
+| Configura o nom que aparecerá no commit
+| ``git config --global user.name "<nome do usuário>"``
+
+| Configura o e-mail que aparecerá no commin
+| ``git config --global user.email "<e-mail do usuário>"``
+
+| Listando as configurações do usuário
+| ``git config --list``
+
+Criação de um projeto
+=====================
+| Criando um novo repositório local com um nome específico
+| ``git init <nome do projeto>``
+
 Clonando seu repositório Git-Hub localmente no Git
 ==================================================
 | **1)** Para fazer as alterações no arquivos que deseja, primeiramente deve-se clonar localmente o repositório onde localizam-se esses arquivos, executando no terminal o comando:
@@ -34,25 +51,51 @@ Clonando seu repositório Git-Hub localmente no Git
 | ``git status``
 | Este é o comando para saber a situação de versionamento de seu projeto
 
-Formatando arquivos e versionando (*commit*) para o Git-Hub
-=========================================================
+Formatando arquivos e versionando (*commit*) para o Git
+=======================================================
 | **1)** Os arquivos de anotações podem ser criados em formato .txt e .str
 | Os arquivos .str tem melhor visualização, já que existem alguns caracteres que podem ser colocados no arquivos para sua melhor visualização no Git-Hub
 |
 | **2)** Dê um ``git status`` para verificar seu projeto
-|
+| 
 | **3)** Agora para indicar que quer que seu arquivo seja versionado dê o comando:
 | ``git add <nome do arquivo>``
 |
-| **4**) Para verificar o histórico de versionamento do arquivo utilize:
-| ``git log``
-|
-| **5)** Para fazer o versionamento (*commit*) para o Git-Hub utilize:
+| **4)** Para fazer o versionamento (*commit*) para o Git-Hub utilize:
 | ``git commit -a``, que vai para um editor dentro do terminal que você pode adicionar comentários sobre o arquivo que está versionando
 | **ou**
 | ``git commit -m "mensagem que quero enviar"``, que faz o processo anterior em uma linha só
 |
-| **6)** Dê ``git status`` ou ``git log`` para verificar se seu versionamenro (commit) foi feito
+| **5)** Dê ``git status`` ou ``git log`` para verificar se seu versionamenro (commit) foi feito
+|
+| **6)** Para verificar o histórico de versionamento do arquivo utilize:
+| ``git log``
+| **ou** 
+| Para listar o histórico de versões para um arquivo, incluindo mudanças de nome
+| ``git log -- follow``
+|
+| **7)** Você pode ver as diferenças que você fez no arquivo e que ainda não foram inseridas no versionamento
+| ``git diff``
+| **ou**
+| Para verificar diferenãs entre ramos (*branch*)
+| git diff <branch1> <branch2>
+|
+| **8)** E você pode ver as mudanças feitas nos metadados e no conteúdo para um dado *commit* usando
+| ``git show <número de identificação do commit>
+
+Desfazendo *commits*
+====================
+| **1)** Podemos desfazer *commits* para um *commit* especificado usando
+| ``git reset <commit>
+| **ou**
+| Para voltar ao commit anterior
+| ``git reset HEAD~1``
+| **ou**
+| Você pode desfazer todo o histórico e mudanças para um *commit* em específico
+| ``git reset --hard <commit>``
+|
+| **2)** Uma alternativa é se você que desfazer a modificação em um arquivo que foi commitado sem ter o processo de alterar diretamente no  arquivo é
+| ``git cheackout -- <nome do arquivo>``
 
 Atualizando o Git-Hub do projeto
 ================================
