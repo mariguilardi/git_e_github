@@ -85,7 +85,7 @@ Formatando arquivos e versionando (*commit*) para o Git
 Desfazendo *commits*
 ====================
 | **1)** Podemos desfazer *commits* para um *commit* especificado usando
-| ``git reset <commit>
+| ``git reset <commit>``
 | **ou**
 | Para voltar ao commit anterior
 | ``git reset HEAD~1``
