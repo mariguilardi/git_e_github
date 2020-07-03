@@ -94,7 +94,7 @@ Desfazendo *commits*
 | ``git reset --hard <commit>``
 |
 | **2)** Uma alternativa é se você que desfazer a modificação em um arquivo que foi commitado sem ter o processo de alterar diretamente no  arquivo é
-| ``git cheackout -- <nome do arquivo>``
+| ``git checkout -- <nome do arquivo>``
 
 Atualizando o Git-Hub do projeto
 ================================
